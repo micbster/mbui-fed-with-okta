@@ -9,8 +9,12 @@
                             "clientSecretSettingName": "vNNL3sbZ39-UililoSfYeXODEWJFm04zJh6ZbL-E"
                         },
                         "openIdConnectConfiguration": {
-                            "wellKnownOpenIdConfiguration": "https://dev-920852.okta.com/.well-known/openid-configuration"
+                            "wellKnownOpenIdConfiguration": "https://lemon-bush-05137a310.2.azurestaticapps.net/.well-known//openid-configuration"
                         }
+                    },
+                    "login": {
+                        "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+                        "scopes": ["openid", "profile"]
                     }
                 }
             }
