@@ -1,0 +1,19 @@
+{
+    "auth": {
+        "identityProviders": {
+            "customOpenIdConnectProviders": {
+                "okta": {
+                    "registration": {
+                        "clientIdSettingName": "0oa462pcv38cnZXcm697",
+                        "clientCredential": {
+                            "clientSecretSettingName": "vNNL3sbZ39-UililoSfYeXODEWJFm04zJh6ZbL-E"
+                        },
+                        "openIdConnectConfiguration": {
+                            "wellKnownOpenIdConfiguration": "https://dev-920852.okta.com/.well-known/openid-configuration"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
